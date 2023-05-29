@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+}
+
+.center {
+    column-count: 3;
+    width: 70%;
+}
+
+.center article {
+    width: 370px;
+    display: inline-block;
+    transition: box-shadow 0.2s ease;
+    margin: 40px 10px 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center article > img{
+    width: inherit;
+    border-radius: 5px 5px 0 0;
+}
+.center article > p {
+    margin: 10px 15px;
+}
+
+.center article:hover{
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.2);
+}
